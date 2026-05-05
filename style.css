@@ -6,20 +6,21 @@ body {
 
 /* HERO */
 .hero {
-  height: 100vh;
+  min-height: 90vh;
+  padding: 60px 20px;
   background: url('assets/hero.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .overlay {
+  text-align: center;
   color: white;
-  max-width: 800px;
-  background: rgba(0,0,0,0.4);
-  padding: 30px;
-  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+  background: rgba(0,0,0,0.45);
+  padding: 40px 30px;
 }
 
 .hero h1 {
